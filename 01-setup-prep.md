@@ -1,4 +1,4 @@
-> **Setup Context**
+**Setup Context**
 
 * **Control Plane**: Raspberry Pi
 * **Worker Nodes**: Raspberry Pi (Also add MacBook Air (macOS) in the future)

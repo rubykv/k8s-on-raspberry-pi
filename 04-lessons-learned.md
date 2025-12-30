@@ -331,3 +331,22 @@ kubeadm init
    - containerd
    - runc etc. 
 
+---
+
+## 13. SSH issues with Raspberry Pi
+If you want to run ssh pi@<raspberry-pi-ip> from your Mac, port 22 must be open and SSH enabled on the Pi.
+
+**How to check & enable SSH**
+From the Pi itself:
+```bash
+sudo systemctl status ssh
+```
+
+If it says inactive, enable it:
+```bash
+sudo systemctl enable ssh
+sudo systemctl start ssh
+```
+
+---
+
