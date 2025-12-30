@@ -2,7 +2,7 @@
 Real-world Kubernetes (k8s) learning journey with Raspberry Pis
 
 **Authors:**  
-– Gayathri (GitHub: @gayathrijonna)  
+– Gayathri Jonna(GitHub: @gayathrijonna)  
 – Ruby Valappil (GitHub: @rubykv)
 
 
