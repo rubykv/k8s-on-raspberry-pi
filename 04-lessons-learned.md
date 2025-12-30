@@ -1,4 +1,4 @@
-# Troubleshooting Guide
+# Lessons Learned
 
 ## 1. `kubectl` Cannot Connect (`localhost:8080`)
 
@@ -319,4 +319,15 @@ kubeadm init
 * Raspberry Pi clusters teach **real Kubernetes**, not abstractions
 
 ---
+
+## 12. Runtime setup challenges on Mac -> 
+  1. "Warning: No available formula with the name "containerd". Did you mean container?"
+  2. "Warning: No available formula with the name "kubeadm". Did you mean kubecm?"
+
+  Mac users should use Docker Desktop for Kubernetes instead of trying to install kubeadm via Homebrew.
+  This avoids the need to manage Kubernetes components manually on macOS, which is not recommended for Kubernetes development and can lead to compatibility issues.
+
+  Docker Desktop already includes:
+   - containerd
+   - runc etc. 
 
